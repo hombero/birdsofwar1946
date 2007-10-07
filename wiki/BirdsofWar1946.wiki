@@ -5,6 +5,10 @@
 
 Welcome to the development home of Birds of War: 1946, provided kindly by Google. Just a bit of background of myself - I am a 19 year old living in Ontario, Canada, and I decided to make a game for fun. With no previous game programming experience, and little C# game programming project and a little over a week I am happy to release to everyone Birds of War: 1946. The game is by no means done, but the engine is pretty much there. I hope someone can find some use from my code, after all that is why it's here! I have many ideas for features to add to BoW and I'll share some soon!
 
+For now, here's a screen shot of v1.0 in action:
+
+http://my1.photodump.com/hombero/bowss1.jpg
+
 
 = Details =
 
