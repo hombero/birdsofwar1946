@@ -12,8 +12,8 @@ http://my1.photodump.com/hombero/bowss1.jpg
 
 = Birds of War: 1946 Current release (v1.0) Details and features =
 
-- (VERY simple) Custom progress bar class. See ProgressBar.cs
-- Scrolling background implementation, including random terrain placement.
+-> (VERY simple) Custom progress bar class. See ProgressBar.cs
+-> Scrolling background implementation, including random terrain placement.
 - Collision detection via .Intersects rectangle detection.
 - Explosions, bullets, and enemy bullets.
 - Custom animated texture class. See AnimatedTexture.cs
