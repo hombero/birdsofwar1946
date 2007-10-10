@@ -1,4 +1,5 @@
 #summary Screenshots from various versions of BoW
+#labels Featured
 
 
 == v1.2 sneak peak ==
