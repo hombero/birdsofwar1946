@@ -1,0 +1,10 @@
+## v1.2 ##
+
+![http://my1.photodump.com/hombero/BoW-1.2-10.10.07-ss.jpg](http://my1.photodump.com/hombero/BoW-1.2-10.10.07-ss.jpg)
+
+New explosions, water, and sandy terrain, Oh My!
+
+
+![http://my1.photodump.com/hombero/BoW-1.2-10.10.07-ss_menu.jpg](http://my1.photodump.com/hombero/BoW-1.2-10.10.07-ss_menu.jpg)
+
+Menu framework for leveling up, buying upgrades, powerups and the like (actual working system won`t be implemented until v1.3)
