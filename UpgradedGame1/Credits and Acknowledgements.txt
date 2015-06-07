@@ -1,0 +1,16 @@
+Thanks to Thenior for the explosions, and shield animation!
+Thanks to Skizot for your l33t google'ing skills and finding me new water, making an alpha layer for the water, and for the sandy terrain!
+Thanks to DeDilus for his license advice!
+Thanks to everyone else in #XNA on choopa.net for all your coding help, and advice!
+
+
+
+If I forgot to give you credit and thank you (likely missed somebody) then please talk to me in IRC, I didn't leave you out on purpose :P
+
+
+contact:
+
+Email: hombero@gmail.com
+IRC: Andrew__d in #XNA @ choopa.net
+BoW:1946 website: http://code.google.com/p/birdsofwar1946/
+

@@ -1,0 +1,9 @@
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\UpgradedGame1\UpgradedGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\UpgradedGame1\UpgradedGame1\obj\x86\Debug\cpl\audio\music\game_music.xml
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\UpgradedGame1\UpgradedGame1\obj\x86\Debug\WindowsGame2.pdb
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\BoW\Birds of War\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\BoW\Birds of War\obj\x86\Debug\cpl\audio\music\game_music.xml
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\BoW\Birds of War\obj\x86\Debug\WindowsGame2.pdb
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\BoW\UpgradedGame1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\BoW\UpgradedGame1\obj\x86\Debug\cpl\audio\music\game_music.xml
+C:\Users\Andrew\Documents\Visual Studio 2005\Projects\BoW\UpgradedGame1\obj\x86\Debug\WindowsGame2.pdb

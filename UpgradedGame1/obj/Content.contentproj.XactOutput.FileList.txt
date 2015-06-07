@@ -1,0 +1,3 @@
+cpl\audio\music\game_music.xgs
+cpl\audio\music\Wave Bank.xwb
+cpl\audio\music\Sound Bank.xsb

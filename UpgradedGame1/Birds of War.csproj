@@ -1,0 +1,176 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{6069bf14-b97e-4387-b8f7-a99001e3b402}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsGame2</RootNamespace>
+    <AssemblyName>WindowsGame2</AssemblyName>
+    <XnaFrameworkVersion>v2.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>cpl\GameThumbnail.png</Thumbnail>
+    <XnaCrossPlatformGroupID>{c06155a5-74bd-4607-9299-8d0f993f9b5b}</XnaCrossPlatformGroupID>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AnimatedTexture.cs">
+      <Name>AnimatedTexture</Name>
+    </Compile>
+    <Compile Include="Declarations.cs">
+      <Name>Declarations</Name>
+    </Compile>
+    <Compile Include="EnemyManager.cs">
+      <Name>EnemyManager</Name>
+    </Compile>
+    <Compile Include="Explosion.cs">
+      <Name>Explosion</Name>
+    </Compile>
+    <Compile Include="ExplosionManager.cs">
+      <Name>ExplosionManager</Name>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <Name>Menu</Name>
+    </Compile>
+    <Compile Include="Powerup.cs">
+      <Name>Powerup</Name>
+    </Compile>
+    <Compile Include="ProgressBar.cs">
+      <Name>ProgressBar</Name>
+    </Compile>
+    <Compile Include="ProjectileManager.cs">
+      <Name>ProjectileManager</Name>
+    </Compile>
+    <Compile Include="Bullet.cs">
+      <Name>Bullet</Name>
+    </Compile>
+    <Compile Include="Enemy.cs">
+      <Name>Enemy</Name>
+    </Compile>
+    <Compile Include="Player.cs">
+      <Name>Player</Name>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs">
+      <Name>Program</Name>
+    </Compile>
+    <Compile Include="BoW_main.cs">
+      <Name>BoW_main</Name>
+    </Compile>
+    <Compile Include="ScrollingBackground.cs">
+      <Name>ScrollingBackground</Name>
+    </Compile>
+    <Compile Include="TitleScreen.cs">
+      <Name>TitleScreen</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico">
+      <Name>Game</Name>
+    </Content>
+    <Content Include="cpl\GameThumbnail.png">
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Credits and Acknowledgements.txt">
+      <Name>Credits and Acknowledgements</Name>
+    </Content>
+    <Content Include="license.txt">
+      <Name>license</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="cpl\audio\sound\A_large_-Blocko-1354.wav">
+      <Name>A_large_-Blocko-1354</Name>
+    </Content>
+    <Content Include="cpl\audio\music\on_the_f-rimela-503.wav">
+      <Name>on_the_f-rimela-503</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cpl\audio\music\game_music.xgs">
+      <Name>game_music</Name>
+    </None>
+    <None Include="cpl\audio\music\Sound Bank.xsb">
+      <Name>Sound Bank</Name>
+    </None>
+    <None Include="cpl\audio\music\Wave Bank.xwb">
+      <Name>Wave Bank</Name>
+    </None>
+    <None Include="cpl\audio\sound\game_sound.xgs">
+      <Name>game_sound</Name>
+    </None>
+    <None Include="cpl\audio\sound\Sound Bank.xsb">
+      <Name>Sound Bank</Name>
+    </None>
+    <None Include="cpl\audio\sound\Wave Bank.xwb">
+      <Name>Wave Bank</Name>
+    </None>
+    <Content Include="cpl\audio\sound\booom-Public_D-21.wav">
+      <Name>booom-Public_D-21</Name>
+    </Content>
+    <Content Include="cpl\audio\sound\Cyberia-Mach_New-7660.wav">
+      <Name>Cyberia-Mach_New-7660</Name>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <NestedContentProject Include="Content.contentproj">
+      <Project>{8ab3c329-c469-4a82-8a9c-f92807a9c8db}</Project>
+      <Visible>False</Visible>
+    </NestedContentProject>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v2.0\Microsoft.Xna.GameStudio.Common.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v2.0\Microsoft.Xna.GameStudio.NestedContent.targets" />
+</Project>

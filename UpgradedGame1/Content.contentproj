@@ -1,0 +1,305 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{8AB3C329-C469-4A82-8A9C-F92807A9C8DB}</ProjectGuid>
+    <ProjectTypeGuids>{96E2B04D-8817-42c6-938A-82C39BA4D311};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WindowsGame2</RootNamespace>
+    <AssemblyName>WindowsGame2</AssemblyName>
+    <XnaFrameworkVersion>v2.0</XnaFrameworkVersion>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <OutputPath>bin\$(Platform)\$(Configuration)</OutputPath>
+    <ContentRootDirectory>.</ContentRootDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <XnaPlatform>Windows</XnaPlatform>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <XnaPlatform>Windows</XnaPlatform>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="cpl\Arial.spritefont">
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Name>Arial</Name>
+    </Compile>
+    <Compile Include="cpl\border.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>border</Name>
+    </Compile>
+    <Compile Include="cpl\bullet.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>bullet</Name>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="cpl\cloud1.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud1</Name>
+    </Compile>
+    <Compile Include="cpl\cloud2.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud2</Name>
+    </Compile>
+    <Compile Include="cpl\cloud3.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud3</Name>
+    </Compile>
+    <Compile Include="cpl\cloud4.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud4</Name>
+    </Compile>
+    <Compile Include="cpl\cloud5.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud5</Name>
+    </Compile>
+    <Compile Include="cpl\cloud6.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud6</Name>
+    </Compile>
+    <Compile Include="cpl\cloud7.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud7</Name>
+    </Compile>
+    <Compile Include="cpl\cloud8.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>cloud8</Name>
+    </Compile>
+    <Compile Include="cpl\hpProgressFiller.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>hpProgressFiller</Name>
+    </Compile>
+    <Compile Include="cpl\shieldglowStrip.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>shieldglowStrip</Name>
+    </Compile>
+    <Compile Include="cpl\waternewestAlpha.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>waternewestAlpha</Name>
+    </Compile>
+    <Compile Include="cpl\enemyBullet.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>enemyBullet</Name>
+    </Compile>
+    <Compile Include="cpl\enemyPlane.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>enemyPlane</Name>
+    </Compile>
+    <Compile Include="cpl\enemyPlane1.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>enemyPlane1</Name>
+    </Compile>
+    <Compile Include="cpl\enemyPlane2.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>enemyPlane2</Name>
+    </Compile>
+    <Compile Include="cpl\enemyPlane3.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>enemyPlane3</Name>
+    </Compile>
+    <Compile Include="cpl\explosionNew.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>explosionNew</Name>
+    </Compile>
+    <Compile Include="cpl\overlay.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>overlay</Name>
+    </Compile>
+    <Compile Include="cpl\playerPlane.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>playerPlane</Name>
+    </Compile>
+    <Compile Include="cpl\pow_bullets.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>pow_bullets</Name>
+    </Compile>
+    <Compile Include="cpl\pow_shield.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>pow_shield</Name>
+    </Compile>
+    <Compile Include="cpl\pow_speed.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>pow_speed</Name>
+    </Compile>
+    <Compile Include="cpl\progressbar.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>progressbar</Name>
+    </Compile>
+    <Compile Include="cpl\progressfull.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>progressfull</Name>
+    </Compile>
+    <Compile Include="cpl\terraintype1.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>terraintype1</Name>
+    </Compile>
+    <Compile Include="cpl\terraintype2.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>terraintype2</Name>
+    </Compile>
+    <Compile Include="cpl\terraintype3.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>terraintype3</Name>
+    </Compile>
+    <Compile Include="cpl\terraintype4.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>terraintype4</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cpl\ComicBold.spritefont">
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Name>ComicBold</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cpl\audio\music\game_music.xap">
+      <Importer>XactImporter</Importer>
+      <Processor>XactProcessor</Processor>
+      <Name>game_music</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cpl\title_screen_content\BirdsOfWarLogo.png">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>BirdsOfWarLogo</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerBack.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerBack</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerButtonA.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerButtonA</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerButtonB.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerButtonB</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerButtonGuide.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerButtonGuide</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerButtonX.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerButtonX</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerButtonY.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerButtonY</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerDPad.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerDPad</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerLeftShoulder.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerLeftShoulder</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerLeftThumbstick.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerLeftThumbstick</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerLeftTrigger.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerLeftTrigger</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerRightShoulder.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerRightShoulder</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerRightThumbstick.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerRightThumbstick</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerRightTrigger.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerRightTrigger</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerSpriteFont.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerSpriteFont</Name>
+    </Compile>
+    <Compile Include="cpl\title_screen_content\xboxControllerStart.tga">
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Name>xboxControllerStart</Name>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.EffectImporter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.FBXImporter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.TextureImporter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Content.Pipeline.XImporter, Version=2.0.0.0, Culture=neutral, PublicKeyToken=6d5c3888ef60e27d, processorArchitecture=MSIL">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="cpl\audio\sound\" />
+  </ItemGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\v2.0\Microsoft.Xna.GameStudio.ContentPipeline.targets" />
+</Project>
